@@ -1,0 +1,6 @@
+services:
+  prosproject:
+    image: prosproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
